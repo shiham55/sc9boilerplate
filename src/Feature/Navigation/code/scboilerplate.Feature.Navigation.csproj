@@ -13,8 +13,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ilight2019.Feature.Navigation</RootNamespace>
-    <AssemblyName>ilight2019.Feature.Navigation</AssemblyName>
+    <RootNamespace>scboilerplate.Feature.Navigation</RootNamespace>
+    <AssemblyName>scboilerplate.Feature.Navigation</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -116,22 +116,22 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\ilight2019\Feature\Feature.Navigation.Serialization.config" />
+    <Content Include="App_Config\Include\scboilerplate\Feature\Feature.Navigation.Serialization.config" />
     <Content Include="packages.config" />
-    <Content Include="App_Config\Include\ilight2019\Glass.Mapper.Sc.Start.config" />
-    <Content Include="App_Config\Include\ilight2019\Glass.Mapper.Sc.config" />
-    <Content Include="App_Config\Include\ilight2019\Glass.Mapper.Sc.CodeFirst.config.exclude" />
-    <None Include="Properties\PublishProfiles\ilight2019.pubxml" />
-    <Content Include="Views\ilight2019\Navigation\Breadcrumb.cshtml" />
-    <Content Include="Views\ilight2019\Navigation\LinkMenu.cshtml" />
-    <Content Include="Views\ilight2019\Navigation\NavigationLinks.cshtml" />
-    <Content Include="Views\ilight2019\Navigation\PrimaryMenu.cshtml" />
-    <Content Include="Views\ilight2019\Navigation\SecondaryMenu.cshtml" />
-    <Content Include="Views\ilight2019\Navigation\_SecondaryMenuItems.cshtml" />
+    <Content Include="App_Config\Include\scboilerplate\Glass.Mapper.Sc.Start.config" />
+    <Content Include="App_Config\Include\scboilerplate\Glass.Mapper.Sc.config" />
+    <Content Include="App_Config\Include\scboilerplate\Glass.Mapper.Sc.CodeFirst.config.exclude" />
+    <None Include="Properties\PublishProfiles\scboilerplate.pubxml" />
+    <Content Include="Views\scboilerplate\Navigation\Breadcrumb.cshtml" />
+    <Content Include="Views\scboilerplate\Navigation\LinkMenu.cshtml" />
+    <Content Include="Views\scboilerplate\Navigation\NavigationLinks.cshtml" />
+    <Content Include="Views\scboilerplate\Navigation\PrimaryMenu.cshtml" />
+    <Content Include="Views\scboilerplate\Navigation\SecondaryMenu.cshtml" />
+    <Content Include="Views\scboilerplate\Navigation\_SecondaryMenuItems.cshtml" />
     <Content Include="Views\Web.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Views\ilight2019\Navigation\Footer.cshtml" />
+    <Content Include="Views\scboilerplate\Navigation\Footer.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -161,11 +161,11 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\Foundation\ContentStore\code\scboilerplate.Foundation.ContentStore.csproj">
       <Project>{d3b1870b-86f0-486a-bee6-28757005da12}</Project>
-      <Name>ilight2019.Foundation.ContentStore</Name>
+      <Name>scboilerplate.Foundation.ContentStore</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\..\Foundation\SitecoreExtenstions\code\scboilerplate.Foundation.SitecoreExtensions.csproj">
       <Project>{50199ee1-71b0-475a-8596-6cba7dd07858}</Project>
-      <Name>ilight2019.Foundation.SitecoreExtensions</Name>
+      <Name>scboilerplate.Foundation.SitecoreExtensions</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

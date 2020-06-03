@@ -1,6 +1,6 @@
 ﻿@using Sitecore.Mvc;
-@using ilight2019.Project.Website;
-@using ilight2019.Foundation.SitecoreExtensions.Extensions;
+@using scboilerplate.Project.Website;
+@using scboilerplate.Foundation.SitecoreExtensions.Extensions;
 <!DOCTYPE html>
 <!--[if lt IE 9]>
 <html class='lt-ie9 no-js' lang='en'>
@@ -11,8 +11,6 @@
 <!--<![endif]-->
 <head>
     @Html.Sitecore().Placeholder("HtmlHead")
-    <link rel="stylesheet" href="~/assets/ilight/styles/main.css">
-	<script src="@Sitecore.Configuration.Settings.GetSetting("ILightWogaaUrl")"></script>
 	<script>
 		(function (i, s, o, g, r, a, m) {
 		i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
@@ -21,7 +19,7 @@
 			m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
 		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-		ga('create', '@Sitecore.Configuration.Settings.GetSetting("ILightGoogleAnalyticsKey", "UA-1472842-26")', 'auto');
+		ga('create', '@Sitecore.Configuration.Settings.GetSetting("GoogleAnalyticsKey", "default-goes-here")', 'auto');
 		ga('send', 'pageview');
 
 	</script>
@@ -37,9 +35,6 @@
         @Html.Sitecore().Placeholder("Content")
     </main>
     @Html.Sitecore().Placeholder("Footer")
-    <script src="~/assets/ilight/scripts/main.js"></script>
-	<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5bdbfb828738db2d"></script>
-	<script type="text/javascript">_satellite.pageBottom();</script>
 </body>
 </html>
 

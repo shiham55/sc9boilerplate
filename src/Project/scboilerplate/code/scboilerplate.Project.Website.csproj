@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ilight2019.Project.Website</RootNamespace>
-    <AssemblyName>ilight2019.Project.Website</AssemblyName>
+    <RootNamespace>scboilerplate.Project.Website</RootNamespace>
+    <AssemblyName>scboilerplate.Project.Website</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -103,12 +103,12 @@
     <Compile Include="Templates.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\ilight2019\Project\Project.Website.config" />
-    <Content Include="App_Config\Include\ilight2019\Project\Project.Website.Serialization.config" />
-    <Content Include="App_Config\Include\ilight2019\Project\Project.Website.DevSettings.config" />
+    <Content Include="App_Config\Include\scboilerplate\Project\Project.Website.config" />
+    <Content Include="App_Config\Include\scboilerplate\Project\Project.Website.Serialization.config" />
+    <Content Include="App_Config\Include\scboilerplate\Project\Project.Website.DevSettings.config" />
     <Content Include="App_Config\Security\domains.config.transform" />
-    <Content Include="App_Config\Include\ilight2019\Project\Project.Website.Settings.config" />
-    <Content Include="App_Config\Include\ilight2019\Project\Project.Website.Analytics.config" />
+    <Content Include="App_Config\Include\scboilerplate\Project\Project.Website.Settings.config" />
+    <Content Include="App_Config\Include\scboilerplate\Project\Project.Website.Analytics.config" />
     <Content Include="assets\ilight\fonts\icomoon.eot" />
     <Content Include="assets\ilight\fonts\icomoon.ttf" />
     <Content Include="assets\ilight\fonts\icomoon.woff" />
@@ -201,10 +201,9 @@
     <Content Include="assets\ilight\scripts\main.js" />
     <Content Include="assets\ilight\styles\main.css" />
     <Content Include="test2.html" />
-    <Content Include="Views\ilight2019\Website\Layouts\DefaultLayout.cshtml" />
+    <Content Include="Views\scboilerplate\Website\Layouts\DefaultLayout.cshtml" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
-    <Content Include="Views\ilight2019\Website\Layouts\delete.txt" />
-    <Content Include="Views\ilight2019\Website\Layouts\EmptyLayout.cshtml" />
+    <Content Include="Views\scboilerplate\Website\Layouts\EmptyLayout.cshtml" />
     <None Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -218,7 +217,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\Foundation\SitecoreExtenstions\code\scboilerplate.Foundation.SitecoreExtensions.csproj">
       <Project>{50199ee1-71b0-475a-8596-6cba7dd07858}</Project>
-      <Name>ilight2019.Foundation.SitecoreExtensions</Name>
+      <Name>scboilerplate.Foundation.SitecoreExtensions</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

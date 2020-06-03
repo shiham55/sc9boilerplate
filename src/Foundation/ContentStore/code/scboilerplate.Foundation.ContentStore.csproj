@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ilight2019.Foundation.ContentStore</RootNamespace>
-    <AssemblyName>ilight2019.Foundation.ContentStore</AssemblyName>
+    <RootNamespace>scboilerplate.Foundation.ContentStore</RootNamespace>
+    <AssemblyName>scboilerplate.Foundation.ContentStore</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -155,11 +155,11 @@
     <Compile Include="Templates.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\ilight2019\Glass.Mapper.Sc.Start.config" />
-    <Content Include="App_Config\Include\ilight2019\Glass.Mapper.Sc.config" />
-    <Content Include="App_Config\Include\ilight2019\Glass.Mapper.Sc.CodeFirst.config.exclude" />
-    <Content Include="App_Config\Include\ilight2019\Foundation\Foundation.ContentStore.Serialization.config" />
-    <None Include="Properties\PublishProfiles\ilight2019.pubxml" />
+    <Content Include="App_Config\Include\scboilerplate\Glass.Mapper.Sc.Start.config" />
+    <Content Include="App_Config\Include\scboilerplate\Glass.Mapper.Sc.config" />
+    <Content Include="App_Config\Include\scboilerplate\Glass.Mapper.Sc.CodeFirst.config.exclude" />
+    <Content Include="App_Config\Include\scboilerplate\Foundation\Foundation.ContentStore.Serialization.config" />
+    <None Include="Properties\PublishProfiles\scboilerplate.pubxml" />
     <None Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -171,7 +171,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\SitecoreExtenstions\code\scboilerplate.Foundation.SitecoreExtensions.csproj">
       <Project>{50199ee1-71b0-475a-8596-6cba7dd07858}</Project>
-      <Name>ilight2019.Foundation.SitecoreExtensions</Name>
+      <Name>scboilerplate.Foundation.SitecoreExtensions</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ilight2019.Foundation.Serialization</RootNamespace>
-    <AssemblyName>ilight2019.Foundation.Serialization</AssemblyName>
+    <RootNamespace>scboilerplate.Foundation.Serialization</RootNamespace>
+    <AssemblyName>scboilerplate.Foundation.Serialization</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -155,35 +155,35 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\ilight2019\Rainbow.config" />
-    <Content Include="App_Config\Include\ilight2019\Unicorn\Unicorn.Dilithium.config">
+    <Content Include="App_Config\Include\scboilerplate\Rainbow.config" />
+    <Content Include="App_Config\Include\scboilerplate\Unicorn\Unicorn.Dilithium.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="App_Config\Include\ilight2019\Unicorn\Unicorn.zSharedSecret.config.example" />
-    <Content Include="App_Config\Include\ilight2019\Unicorn\Unicorn.UI.config" />
-    <Content Include="App_Config\Include\ilight2019\Unicorn\Unicorn.Remote.config.disabled" />
-    <Content Include="App_Config\Include\ilight2019\Unicorn\Unicorn.PowerShell.config" />
-    <Content Include="App_Config\Include\ilight2019\Unicorn\Unicorn.Dilithium.config.example" />
-    <Content Include="App_Config\Include\ilight2019\Unicorn\Unicorn.Deployed.config.disabled" />
-    <Content Include="App_Config\Include\ilight2019\Unicorn\Unicorn.DataProvider.config" />
-    <Content Include="App_Config\Include\ilight2019\Unicorn\Unicorn.CustomSerializationFolder.config.example" />
-    <Content Include="App_Config\Include\ilight2019\Unicorn\Unicorn.Configs.NewItemsOnly.example" />
-    <Content Include="App_Config\Include\ilight2019\Unicorn\Unicorn.Configs.Dependency.config.example" />
-    <Content Include="App_Config\Include\ilight2019\Unicorn\Unicorn.Configs.Default.example" />
-    <Content Include="App_Config\Include\ilight2019\Unicorn\Unicorn.config" />
-    <Content Include="App_Config\Include\ilight2019\Unicorn\Unicorn.AutoPublish.config" />
-    <Content Include="App_Config\Include\ilight2019\Unicorn\Unicorn.Roles.DataProvider.config" />
-    <Content Include="App_Config\Include\ilight2019\Unicorn\Unicorn.Roles.config" />
-    <Content Include="App_Config\Include\ilight2019\Unicorn\Unicorn.Configs.Default.Roles.config.example" />
-    <Content Include="App_Config\Include\ilight2019\Unicorn\Unicorn.Users.DataProvider.config" />
-    <Content Include="App_Config\Include\ilight2019\Unicorn\Unicorn.Users.config" />
-    <Content Include="App_Config\Include\ilight2019\Unicorn\Unicorn.Configs.Default.Users.config.example" />
+    <Content Include="App_Config\Include\scboilerplate\Unicorn\Unicorn.zSharedSecret.config.example" />
+    <Content Include="App_Config\Include\scboilerplate\Unicorn\Unicorn.UI.config" />
+    <Content Include="App_Config\Include\scboilerplate\Unicorn\Unicorn.Remote.config.disabled" />
+    <Content Include="App_Config\Include\scboilerplate\Unicorn\Unicorn.PowerShell.config" />
+    <Content Include="App_Config\Include\scboilerplate\Unicorn\Unicorn.Dilithium.config.example" />
+    <Content Include="App_Config\Include\scboilerplate\Unicorn\Unicorn.Deployed.config.disabled" />
+    <Content Include="App_Config\Include\scboilerplate\Unicorn\Unicorn.DataProvider.config" />
+    <Content Include="App_Config\Include\scboilerplate\Unicorn\Unicorn.CustomSerializationFolder.config.example" />
+    <Content Include="App_Config\Include\scboilerplate\Unicorn\Unicorn.Configs.NewItemsOnly.example" />
+    <Content Include="App_Config\Include\scboilerplate\Unicorn\Unicorn.Configs.Dependency.config.example" />
+    <Content Include="App_Config\Include\scboilerplate\Unicorn\Unicorn.Configs.Default.example" />
+    <Content Include="App_Config\Include\scboilerplate\Unicorn\Unicorn.config" />
+    <Content Include="App_Config\Include\scboilerplate\Unicorn\Unicorn.AutoPublish.config" />
+    <Content Include="App_Config\Include\scboilerplate\Unicorn\Unicorn.Roles.DataProvider.config" />
+    <Content Include="App_Config\Include\scboilerplate\Unicorn\Unicorn.Roles.config" />
+    <Content Include="App_Config\Include\scboilerplate\Unicorn\Unicorn.Configs.Default.Roles.config.example" />
+    <Content Include="App_Config\Include\scboilerplate\Unicorn\Unicorn.Users.DataProvider.config" />
+    <Content Include="App_Config\Include\scboilerplate\Unicorn\Unicorn.Users.config" />
+    <Content Include="App_Config\Include\scboilerplate\Unicorn\Unicorn.Configs.Default.Users.config.example" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\ilight2019\Foundation\Foundation.Serialization.Rainbow.config" />
+    <Content Include="App_Config\Include\scboilerplate\Foundation\Foundation.Serialization.Rainbow.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Web.config" />
     <None Include="Web.Debug.config">
@@ -194,7 +194,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\ilight2019\Foundation\Foundation.Serialization.config">
+    <Content Include="App_Config\Include\scboilerplate\Foundation\Foundation.Serialization.config">
       <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
