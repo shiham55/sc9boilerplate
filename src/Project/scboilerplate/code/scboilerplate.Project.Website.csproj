@@ -114,6 +114,7 @@
     <Content Include="assets\ilight\fonts\icomoon.woff" />
     <Content Include="assets\ilight\scripts\main.js.map" />
     <Content Include="assets\ilight\styles\main.css.map" />
+    <Content Include="App_Config\ConnectionStrings.config" />
     <None Include="packages.config" />
     <Content Include="assets\ilight\fonts\icomoon.svg" />
     <Content Include="assets\ilight\images\about.png" />
@@ -203,7 +204,6 @@
     <Content Include="test2.html" />
     <Content Include="Views\scboilerplate\Website\Layouts\DefaultLayout.cshtml" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
-    <Content Include="Views\scboilerplate\Website\Layouts\EmptyLayout.cshtml" />
     <None Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
