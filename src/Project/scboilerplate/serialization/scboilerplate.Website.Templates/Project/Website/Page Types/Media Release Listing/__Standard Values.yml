@@ -1,0 +1,52 @@
+﻿---
+ID: "c1807b14-f8ad-4425-ba5d-ca1105a03b62"
+Parent: "b44d645e-0861-4f03-824d-af41d328e9b7"
+Template: "b44d645e-0861-4f03-824d-af41d328e9b7"
+Path: /sitecore/templates/ilight2019/Project/Website/Page Types/Media Release Listing/__Standard Values
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/32x32/text_rich_colored.png
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{7F8A8E38-C582-43CA-B850-D449C5F67D49}">
+        <r
+          id="{7AFC2F2C-7147-4DE2-8283-922B58EB9B85}"
+          ph="HtmlHead"
+          uid="{625C7B83-436F-4C49-8A83-036998F4A361}" />
+        <r
+          id="{4BFFF817-954E-4915-AC6C-5715E08D4192}"
+          ph="Main Navigation"
+          uid="{A95BE74B-F5B7-4D51-A73E-09C74B8C36B4}" />
+        <r
+          id="{226CA009-CBA0-4DF0-B475-BFBE16D96402}"
+          ph="Content"
+          uid="{9AE3ED74-43E8-4A06-96FF-7F9AC1ABA1D0}" />
+        <r
+          id="{52B24CC4-41A9-4DB3-9115-741B523B9FCE}"
+          ph="Content"
+          uid="{9B774216-3375-43DE-B74D-E6731F68A8D3}" />
+        <r
+          id="{8B62FE6F-6713-48E1-8660-0425DCA36409}"
+          ph="Footer"
+          uid="{FA9C9781-5A4D-444C-93B2-54888E602D14}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181005T020154Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

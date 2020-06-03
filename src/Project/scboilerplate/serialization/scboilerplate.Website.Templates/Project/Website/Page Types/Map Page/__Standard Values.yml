@@ -1,0 +1,49 @@
+﻿---
+ID: "e2b4e969-ed5c-46f8-bb50-8731144fd47e"
+Parent: "bd7f7523-097b-408e-8477-9449bbb9b292"
+Template: "bd7f7523-097b-408e-8477-9449bbb9b292"
+Path: /sitecore/templates/ilight2019/Project/Website/Page Types/Map Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{7F8A8E38-C582-43CA-B850-D449C5F67D49}">
+        <r
+          id="{7AFC2F2C-7147-4DE2-8283-922B58EB9B85}"
+          ph="HtmlHead"
+          uid="{1BF4AB5C-C586-4F85-A00D-60BF25547FD6}" />
+        <r
+          id="{4BFFF817-954E-4915-AC6C-5715E08D4192}"
+          ph="Main Navigation"
+          uid="{BC8378B5-FCF6-4155-B43C-65080F121016}" />
+        <r
+          id="{226CA009-CBA0-4DF0-B475-BFBE16D96402}"
+          ph="Content"
+          uid="{3568CA4A-2985-40AD-A69A-2011E59AB017}" />
+        <r
+          id="{21ED439C-6761-4528-B9C7-AF9EE66EDD44}"
+          ph="Content"
+          uid="{3A569672-B668-440A-987A-E3EF27B8C03F}" />
+        <r
+          id="{8B62FE6F-6713-48E1-8660-0425DCA36409}"
+          ph="Footer"
+          uid="{22E71475-D719-4D0F-BB51-8D413D22F4B3}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181003T064433Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

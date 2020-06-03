@@ -1,0 +1,18 @@
+﻿---
+ID: "18b38ae5-a010-4370-97cd-d03a59995c9a"
+Parent: "a5c579f6-2168-49d8-b2a0-e96c33093207"
+Template: "a5c579f6-2168-49d8-b2a0-e96c33093207"
+Path: /sitecore/templates/ilight2019/Foundation/Content Store/Category/Category Type/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181017T083851Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

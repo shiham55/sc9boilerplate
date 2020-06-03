@@ -1,0 +1,161 @@
+﻿@using System.Collections.Specialized;
+@using ilight2019.Feature.Navigation.Models.SitecoreModels;
+@using ilight2019.Feature.Navigation.Models.ViewModels;
+@using ilight2019.Feature.Navigation;
+@using ilight2019.Foundation.SitecoreExtensions.Extensions;
+@using ilight2019.Foundation.ContentStore.Models.SitecoreModels
+
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<PrimaryMenuViewModel>
+
+@if (Model.ShowNotifications)
+{
+    <section class="notifications">
+        <div class="notification-section">
+            <div data-pubdate="10/14/2018" class="notification">
+                <div class="container">
+                    <div class="notification__carousel">
+                        @foreach (INotificationItem item in Model.NotificationItem.Notifications)
+                        {
+                            if (item.NotificationLink != null && !string.IsNullOrEmpty(item.NotificationLink.Url))
+                            {
+                                using (BeginRenderLink(item, x => x.NotificationLink, new { @class = "notification__link" }))
+                                {
+                                    @Editable(item, x => x.NotificationText)
+                                }
+                            }
+                            else
+                            {
+                                <a class="notification__link">
+                                    @Editable(item, x => x.NotificationText)
+                                </a>
+                            }
+                        }
+                    </div>
+                    <button class="notification-btn js-notify-btn"><span class="visuallyhidden">Notification Close button</span><span class="icon icon-close"></span></button>
+                </div>
+            </div>
+        </div>
+    </section>
+}
+
+<div class="header__additional">
+    <span class="dates">@Model.FooterItem.EventDate</span>
+	<ul>
+		<li><a href="#" class="addthis_facebook addthis_inline_share_toolbox"></a></li>
+		<li><a href="#" class="addthis_twitter addthis_inline_share_toolbox_hc5s"></a></li>
+		<li><a href="#" class="addthis_mail addthis_inline_share_toolbox_rfog"> </a></li>
+		<div class="clear"></div>
+	</ul>
+</div>
+
+<div class="header__container">
+    <div class="container">
+        <div class="header__left">
+            <div class="site-logo">
+                @if (Model.Logo != null && Model.Logo.iLightLogo != null && Model.Logo.iLightLogoLink != null)
+                {
+                    using (BeginRenderLink(Model, m => m.Logo.iLightLogoLink, new NameValueCollection { { "class", "site-logo__link" } }, isEditable: true))
+                    {
+                        @RenderImage(Model, x => x.Logo.iLightLogo, new { @class = "site-logo__image" }, isEditable: true);
+                    }
+                }
+                else if (Model != null && Model.Logo != null && Model.Logo.iLightLogo != null)
+                {
+                    <a href="/" class="site-logo__link">
+                        @RenderImage(Model, x => x.Logo.iLightLogo, new { @class = "site-logo__image" }, isEditable: true);
+                    </a>
+                }
+                else
+                {
+                    <a href="/" class="site-logo__link"><img data-src="~/assets/ilight/images/ilight-logo.png" src="~/assets/ilight/images/ilight-logo.png" alt="iLight Marina Bay Logo" class="site-logo__image lazy"></a>
+                }
+            </div>
+        </div>
+
+        @if (Model != null || Model.NavigationItems != null || Model.NavigationItems.Items != null || Model.NavigationItems.Items.Count > 0)
+        {
+            <div class="header__right">
+                <div class="non-search">
+                    <nav aria-label="Main Navigation" class="main-menu">
+                        <div class="container">
+                            <ul class="main-menu__lvl1">
+                                @foreach (var firstLevelItem in Model.NavigationItems.Items)
+                                {
+                                    var hasSecondLevelItems = firstLevelItem.Children != null && firstLevelItem.Children.Items.Any();
+                                    var activeClass = firstLevelItem.IsActive ? "active" : "";
+                                <li class="main-menu__lvl1-item @activeClass">
+                                    @if (hasSecondLevelItems)
+                                    {
+                                        <a class="main-menu__lvl1-item-link @activeClass">@firstLevelItem.NavigationTitle<span class="plus-minus-toggle no-desktop"></span></a>
+                                        <ul class="main-menu__lvl2">
+                                            @foreach (var secondLevelItem in firstLevelItem.Children.Items)
+                                            {
+                                                var hasThirdLevelItems = secondLevelItem.Children != null && secondLevelItem.Children.Items.Any();
+                                                var secondLevelHref = !hasThirdLevelItems ? string.Format("href={0}", secondLevelItem.Url) : "";
+                                                <li class="main-menu__lvl2-item">
+                                                    <a @secondLevelHref class="main-menu__lvl2-item-link">
+                                                        @secondLevelItem.NavigationTitle
+                                                        @if (hasThirdLevelItems)
+                                                        {
+                                                            <span class="icon-arrow icon-chevron-small-down no-mobile"></span>
+                                                        }
+                                                        <span class="@((hasThirdLevelItems) ? "plus-minus-toggle no-desktop" : "no-desktop")"></span>
+                                                    </a>
+                                                    @if (hasThirdLevelItems)
+                                                    {
+                                                        <ul class="main-menu__lvl3">
+                                                            @foreach (var thirdLevelItem in secondLevelItem.Children.Items)
+                                                            {
+                                                                <li class="main-menu__lvl3-item"><a href="@thirdLevelItem.Url" class="main-menu__lvl3-item-link">@thirdLevelItem.NavigationTitle</a></li>
+                                                            }
+                                                        </ul>
+                                                    }
+                                                </li>
+                                            }
+                                        </ul>
+                                    }
+                                    else
+                                    {
+                                        <a href="@firstLevelItem.Url" class="main-menu__lvl1-item-link @activeClass">@firstLevelItem.NavigationTitle<span class="no-desktop"></span></a>
+                                    }
+                                </li>
+                                }
+                                @if (Model.ShowNotifications)
+                                {
+                                    <li class="main-menu__lvl1-item desktop-only notify-menu">
+                                        <button type="button" class="js-notify-btn"><span class="visuallyhidden">Notifications</span><span class="icon icon-alarm"></span></button>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="font-resizer">
+                        <button data-size="normal" class="js-resizer is-active"><span class="visuallyhidden">Normal Font Size</span><span class="icon-font_size"></span></button>
+                        <button data-size="large" class="js-resizer"><span class="visuallyhidden">Big Font Size</span><span class="icon-font_size"></span></button>
+                        <button data-size="larger" class="js-resizer"><span class="visuallyhidden">Bigger Font Size</span><span class="icon-font_size"></span></button>
+                    </div>
+                </div>
+                <div id="desktopSearch" class="d-search-bar">
+                    <label for="siteSearch" class="visuallyhidden">Search by Keyword</label>
+                    <input placeholder="Search by keyword or phrase" name="q" id="siteSearch" class="siteSearch">
+                    <button type="submit" class="btn-search"><span class="visuallyhidden">Submit search</span><span class="icon-search"></span></button>
+                </div>
+                <div class="header__search">
+                    <button class="mobile-search-icon"><span class="visuallyhidden">Toggle mobile search bar</span><span class="icon icon-search"></span></button>
+                </div>
+				<div class="header__mbl-notification handheld-only">
+				   <button class="js-notify-btn"><span class="visuallyhidden">Notifications</span><span class="icon icon-alarm"></span></button>
+				</div>
+            </div>
+        }
+        <div class="mobile-menu-icon-container no-desktop">
+            <button type="button" class="mobile-menu-icon"><span class="visuallyhidden">Toggle mobile menu</span><span class="line"></span></button>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div id="mobileSearchbar" action="/search" class="m-search-bar no-desktop">
+    <label for="mobileSearch" class="visuallyhidden">Search by keyword</label>
+    <input name="q" placeholder="Search by keyword or phrase" id="mobileSearch" class="mobileSearch">
+    <button type="submit" class="btn-search"><span class="visuallyhidden">Submit search</span><span class="icon icon-chevron-small-right"></span></button>
+</div>

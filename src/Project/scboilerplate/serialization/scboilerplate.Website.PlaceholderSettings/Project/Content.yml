@@ -1,0 +1,26 @@
+﻿---
+ID: "64b3a5d7-d70d-4955-baf6-2fb3c9d26d5e"
+Parent: "90444f3a-6cf4-4b04-b5d1-3b8b3ac4fe0d"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/ilight2019/Project/Content
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: Content
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {226CA009-CBA0-4DF0-B475-BFBE16D96402}
+    {68DA504A-712B-4620-BB2E-E99CAE65F45E}
+    {6D3B4E7D-FEF8-4110-804A-B56605688830}
+    {F2CCA16D-7524-4E99-8EE0-78FF6394A3B3}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181002T024705Z

@@ -1,0 +1,56 @@
+﻿---
+ID: "e72ef189-45c5-45d4-8566-753798e22b67"
+Parent: "a9d0ac70-287b-48d7-90ac-768367ef81bf"
+Template: "a9d0ac70-287b-48d7-90ac-768367ef81bf"
+Path: /sitecore/templates/ilight2019/Project/Website/Page Types/Category Listing/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{F291C03F-1329-49C3-8FB4-1F4AEBA6B355}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{7F8A8E38-C582-43CA-B850-D449C5F67D49}">
+        <r
+          id="{7AFC2F2C-7147-4DE2-8283-922B58EB9B85}"
+          ph="HtmlHead"
+          uid="{85558E1D-7DC7-451B-BF92-609F7D2987C1}" />
+        <r
+          id="{4BFFF817-954E-4915-AC6C-5715E08D4192}"
+          ph="Main Navigation"
+          uid="{9785DD77-89EB-434A-845D-CEEA6F00A35B}" />
+        <r
+          id="{226CA009-CBA0-4DF0-B475-BFBE16D96402}"
+          ph="Content"
+          uid="{EF86AA58-EC7A-48BC-97AB-FE1074507B37}" />
+        <r
+          id="{1FBA25EF-3088-43A6-A91F-0914B3D8E41B}"
+          ph="Content"
+          uid="{4AC290ED-1BEB-4CDF-8AF2-A8AAAB69E711}" />
+        <r
+          id="{8B62FE6F-6713-48E1-8660-0425DCA36409}"
+          ph="Footer"
+          uid="{942EC062-843D-469F-8207-51925000BDF0}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181003T042518Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "906c903f-43ec-4261-8e84-b38f67ff3c06"
+      Hint: Navigation Title
+      Value: $name

@@ -1,0 +1,34 @@
+﻿---
+ID: "d25a01bb-98c9-4fe4-8b06-c862244d26a5"
+Parent: "b4fc56df-c930-4503-9ddd-b004a8c000fb"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/ilight2019/Project/Website/Page Types/Rate Website Form Page
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/star.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {8906B507-DAE5-47B2-88FE-AB150A470DF0}
+    {A42597C5-A827-4282-95FB-BA489686A3E5}
+    {C79C29A6-C921-49E4-ABF5-AF1CADFCBEAF}
+    {A4A8F367-1129-49B6-9DD8-E1D3569B2BCD}
+    {3EE1920B-61C3-4F70-AFAD-E1A8B34B0B21}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{E1715F42-DA27-4B76-8675-CF3BFF475B43}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181024T074343Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

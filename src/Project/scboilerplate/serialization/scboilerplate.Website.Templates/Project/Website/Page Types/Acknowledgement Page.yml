@@ -1,0 +1,35 @@
+﻿---
+ID: "ae007eb9-32c0-4183-9fa7-d432b84731cb"
+Parent: "b4fc56df-c930-4503-9ddd-b004a8c000fb"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/ilight2019/Project/Website/Page Types/Acknowledgement Page
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Business/32x32/column.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {A42597C5-A827-4282-95FB-BA489686A3E5}
+    {7BDDC64D-3F90-4C03-804F-0E20F494FE11}
+    {8906B507-DAE5-47B2-88FE-AB150A470DF0}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{251B6C37-0CF6-49A7-AB02-5DD6C9DEF437}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181007T081110Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

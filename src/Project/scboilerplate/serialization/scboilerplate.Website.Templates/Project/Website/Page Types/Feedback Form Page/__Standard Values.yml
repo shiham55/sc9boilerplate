@@ -1,0 +1,57 @@
+﻿---
+ID: "1c581045-aa86-4f39-84c6-4d5b17da9355"
+Parent: "a9f6634f-eb0f-4ea1-b0a8-378209453ddb"
+Template: "a9f6634f-eb0f-4ea1-b0a8-378209453ddb"
+Path: /sitecore/templates/ilight2019/Project/Website/Page Types/Feedback Form Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{7F8A8E38-C582-43CA-B850-D449C5F67D49}">
+        <r
+          ds=""
+          id="{7AFC2F2C-7147-4DE2-8283-922B58EB9B85}"
+          par=""
+          ph="HtmlHead"
+          uid="{D500D40D-1C57-40BF-8C08-FE7C0C000BF1}" />
+        <r
+          ds=""
+          id="{4BFFF817-954E-4915-AC6C-5715E08D4192}"
+          par=""
+          ph="Main Navigation"
+          uid="{9F669F48-52FD-4766-9BD9-22CCFEFED922}" />
+        <r
+          id="{226CA009-CBA0-4DF0-B475-BFBE16D96402}"
+          ph="Content"
+          uid="{F63BD1CA-D6BA-4FD5-90B4-3743C2F6CF6D}" />
+        <r
+          id="{139F61A2-F940-4C76-94D4-6F70C53C643C}"
+          ph="Content"
+          uid="{8377CACD-B963-4583-BE5E-88FB8354EFED}" />
+        <r
+          id="{A30E5251-D12A-4972-A440-6927A08FBC84}"
+          ph="Content"
+          uid="{D35BA617-2148-40E3-B378-953D14E39576}" />
+        <r
+          id="{8B62FE6F-6713-48E1-8660-0425DCA36409}"
+          ph="Footer"
+          uid="{5E1B32D3-A1A4-4D75-86C3-6F510AAA4716}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181024T015226Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

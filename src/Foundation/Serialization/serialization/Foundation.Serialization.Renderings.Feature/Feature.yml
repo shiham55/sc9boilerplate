@@ -1,0 +1,14 @@
+﻿---
+ID: "076e6e78-df75-41aa-9502-7be90ebebed8"
+Parent: "1e889f5d-8f40-4abb-89bd-d46df20fa109"
+Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
+Path: /sitecore/layout/renderings/ilight2019/Feature
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180926T035927Z

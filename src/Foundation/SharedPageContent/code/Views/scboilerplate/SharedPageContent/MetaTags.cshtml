@@ -1,0 +1,75 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc;
+@using ilight2019.Foundation.SharedPageContent.Models;
+@inherits GlassView<IMetaTag>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+@if (!string.IsNullOrEmpty(Model.MetaTitle))
+{
+    <title>@Model.MetaTitle</title>
+}
+@if (Model.Favicon != null && !string.IsNullOrEmpty(Model.Favicon.Url))
+{
+    <link rel="shortcut icon" href="@Model.Favicon.Url">
+}
+@if (!string.IsNullOrEmpty(Model.MetaDescription))
+{
+    <meta name="description" content="@Model.MetaDescription">
+}
+@if (!string.IsNullOrEmpty(Model.MetaKeywords))
+{
+    <meta name="keywords" content="@Model.MetaKeywords">
+}
+@if (!string.IsNullOrEmpty(Model.TwitterTitle))
+{
+    <meta name="twitter:title" content="@Model.TwitterTitle">
+}
+@if (!string.IsNullOrEmpty(Model.TwitterCard))
+{
+    <meta name="twitter:card" content="@Model.TwitterCard">
+}
+@if (!string.IsNullOrEmpty(Model.TwitterSite))
+{
+    <meta name="twitter:site" content="@Model.TwitterSite">
+}
+@if (!string.IsNullOrEmpty(Model.TwitterDecription))
+{
+    <meta name="twitter:description" content="@Model.TwitterDecription">
+}
+@if (!string.IsNullOrEmpty(Model.TwitterCreator))
+{
+    <meta name="twitter:creator" content="@Model.TwitterCreator">
+}
+@if (!string.IsNullOrEmpty(Model.TwitterImageUrl))
+{
+    <meta name="twitter:image" content="@Model.TwitterImageUrl">
+}
+@if (!string.IsNullOrEmpty(Model.OGTitle))
+{
+    <meta property="og:title" content="@Model.OGTitle" />
+}
+@if (!string.IsNullOrEmpty(Model.OGType))
+{
+    <meta property="og:type" content="@Model.OGType" />
+}
+@if (Model.SCItem != null)
+{
+    var options = Sitecore.Links.LinkManager.GetDefaultUrlOptions();
+    options.AlwaysIncludeServerUrl = true;
+    string url = Sitecore.Links.LinkManager.GetItemUrl(Model.SCItem, options);
+
+    <meta property="og:url" content="@url" />
+}
+@if (!string.IsNullOrEmpty(Model.OGImageUrl))
+{
+    <meta property="og:image" content="@Model.OGImageUrl" />
+}
+@if (!string.IsNullOrEmpty(Model.OGDescription))
+{
+    <meta property="og:description" content="@Model.OGDescription" />
+}
+@if (!string.IsNullOrEmpty(Model.OGSitename))
+{
+    <meta property="og:site_name" content="@Model.OGSitename" />
+}

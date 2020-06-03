@@ -1,0 +1,18 @@
+﻿---
+ID: "61657476-3b3c-4701-8690-f677b4053f2f"
+Parent: "d4e5880c-f927-48c9-bac5-d752baa6b6df"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/ilight2019/Foundation/Content Store/Logos/Logo Category Folder/Logo Category
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181005T083113Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

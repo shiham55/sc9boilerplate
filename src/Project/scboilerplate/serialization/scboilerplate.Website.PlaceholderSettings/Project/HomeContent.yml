@@ -1,0 +1,18 @@
+﻿---
+ID: "4a60425f-241a-4440-b1a6-56fd93764de4"
+Parent: "90444f3a-6cf4-4b04-b5d1-3b8b3ac4fe0d"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/ilight2019/Project/HomeContent
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: HomeContent
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181121T113718Z

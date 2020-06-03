@@ -1,0 +1,22 @@
+﻿---
+ID: "4cec276d-8980-4a59-bf2a-b9cf63c89db1"
+Parent: "90444f3a-6cf4-4b04-b5d1-3b8b3ac4fe0d"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/ilight2019/Project/Footer
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: Footer
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: "{8B62FE6F-6713-48E1-8660-0425DCA36409}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181001T023009Z

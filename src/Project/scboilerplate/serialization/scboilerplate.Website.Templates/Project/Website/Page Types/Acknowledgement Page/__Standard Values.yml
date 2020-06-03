@@ -1,0 +1,49 @@
+﻿---
+ID: "251b6c37-0cf6-49a7-ab02-5dd6c9def437"
+Parent: "ae007eb9-32c0-4183-9fa7-d432b84731cb"
+Template: "ae007eb9-32c0-4183-9fa7-d432b84731cb"
+Path: /sitecore/templates/ilight2019/Project/Website/Page Types/Acknowledgement Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{7F8A8E38-C582-43CA-B850-D449C5F67D49}">
+        <r
+          id="{7AFC2F2C-7147-4DE2-8283-922B58EB9B85}"
+          ph="HtmlHead"
+          uid="{E1871335-AA37-484C-9F70-DB042AEF77D2}" />
+        <r
+          id="{4BFFF817-954E-4915-AC6C-5715E08D4192}"
+          ph="Main Navigation"
+          uid="{63356EA6-FD6D-41DC-9354-83C395D3C0AD}" />
+        <r
+          id="{226CA009-CBA0-4DF0-B475-BFBE16D96402}"
+          ph="Content"
+          uid="{6DB84F13-B3AB-4298-A78E-03C4CA2D6227}" />
+        <r
+          id="{B3BB5BBE-0BA9-4D3E-845F-A91D9E4ECAC7}"
+          ph="Content"
+          uid="{74BCE4B1-BF04-429D-B7A0-C541F32E27B0}" />
+        <r
+          id="{8B62FE6F-6713-48E1-8660-0425DCA36409}"
+          ph="Footer"
+          uid="{806C9D4E-50F4-4A31-B2C8-EDC36456C775}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181007T081232Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
