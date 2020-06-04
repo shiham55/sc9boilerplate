@@ -1,9 +1,8 @@
-﻿namespace scboilerplate.Feature.Navigation.Models
-{
-    using System.Collections.Generic;
-    using Sitecore.Mvc.Presentation;
+﻿using System.Collections.Generic;
 
-    public class NavigationItems : RenderingModel
+namespace scboilerplate.Feature.Navigation.Models
+{
+    public class NavigationItems
     {
         public IList<NavigationItem> Items { get; set; }
     }
