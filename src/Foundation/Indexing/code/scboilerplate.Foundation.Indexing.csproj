@@ -405,17 +405,6 @@
     <Compile Include="ViewModels\PageSearchResults.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\scboilerplate\Foundation\Indexing\CategoryDetail\ilight0219.ContentSearch.Lucene.CategoryDetail.DefaultIndexConfiguration.config" />
-    <Content Include="App_Config\Include\scboilerplate\Foundation\Indexing\CategoryDetail\ilight0219.ContentSearch.Lucene.CategoryDetail.Master.config" />
-    <Content Include="App_Config\Include\scboilerplate\Foundation\Indexing\CategoryDetail\ilight0219.ContentSearch.Lucene.CategoryDetail.Web.config" />
-    <Content Include="App_Config\Include\scboilerplate\Foundation\Indexing\SearchResult\ilight0219.ContentSearch.Lucene.SearchResult.DefaultIndexConfiguration.config" />
-    <Content Include="App_Config\Include\scboilerplate\Foundation\Indexing\SearchResult\ilight0219.ContentSearch.Lucene.SearchResult.Master.config" />
-    <Content Include="App_Config\Include\scboilerplate\Foundation\Indexing\SearchResult\ilight0219.ContentSearch.Lucene.SearchResult.Web.config" />
-    <Content Include="App_Config\Include\scboilerplate\Foundation\Indexing\CategoryListing\ilight0219.ContentSearch.Lucene.CategoryListing.DefaultIndexConfiguration.config">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="App_Config\Include\scboilerplate\Foundation\Indexing\CategoryListing\ilight0219.ContentSearch.Lucene.CategoryListing.Master.config" />
-    <Content Include="App_Config\Include\scboilerplate\Foundation\Indexing\CategoryListing\ilight0219.ContentSearch.Lucene.CategoryListing.Web.config" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\scboilerplate.pubxml" />
     <None Include="Web.config" />
@@ -427,6 +416,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Config\Include\scboilerplate\Foundation\Indexing\" />
     <Folder Include="ContentSearchService\" />
   </ItemGroup>
   <PropertyGroup>

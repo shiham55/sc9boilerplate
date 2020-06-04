@@ -7,19 +7,20 @@
     using Sitecore.Data.Items;
     using scboilerplate.Feature.Navigation.Models;
     using scboilerplate.Foundation.SitecoreExtensions.Extensions;
-    using Glass.Mapper.Sc;
     using scboilerplate.Feature.Navigation.Models.SitecoreModels;
+    using Glass.Mapper.Sc;
+    using Glass.Mapper.Sc.Web.Mvc;
 
     public class NavigationRepository : INavigationRepository
     {
         public Item ContextItem { get; }
         public Item NavigationRoot { get; }
 
-        private readonly ISitecoreContext _sitecoreContext;
+        private readonly IMvcContext _sitecoreContext;
 
         public NavigationRepository(Item contextItem)
         {
-            this._sitecoreContext = new SitecoreContext();
+            this._sitecoreContext = new MvcContext();// new SitecoreContext();
 
             this.ContextItem = contextItem;
             this.NavigationRoot = this.GetNavigationRoot(this.ContextItem);
@@ -100,7 +101,8 @@
             Item navigationRoot = this.GetNavigationRoot(this.ContextItem);
 
             if (navigationRoot.IsDerived(Templates.Footer.ID))
-                return this.GetNavigationRoot(this.ContextItem).GlassCast<IFooter>();
+                return _sitecoreContext.SitecoreService.GetItem<IFooter>(this.GetNavigationRoot(this.ContextItem));
+
             return null;
         }
 
@@ -108,7 +110,7 @@
         {
             Item navigationRoot = this.GetNavigationRoot(this.ContextItem);
             if (navigationRoot.IsDerived(Templates.Logo.ID))
-                return navigationRoot.GlassCast<ILogo>();
+                return _sitecoreContext.SitecoreService.GetItem<ILogo>(this.GetNavigationRoot(this.ContextItem));
             return null;
         }
 
@@ -116,7 +118,7 @@
         {
             Item navigationRoot = this.GetNavigationRoot(this.ContextItem);
             if (navigationRoot.IsDerived(Templates.Logo.ID))
-                return navigationRoot.GlassCast<INotification>();
+                return _sitecoreContext.SitecoreService.GetItem<INotification>(this.GetNavigationRoot(this.ContextItem));
             return null;
         }
 

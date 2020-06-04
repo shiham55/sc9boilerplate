@@ -217,9 +217,6 @@
     <Compile Include="Templates.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\scboilerplate\Glass.Mapper.Sc.Start.config" />
-    <Content Include="App_Config\Include\scboilerplate\Glass.Mapper.Sc.config" />
-    <Content Include="App_Config\Include\scboilerplate\Glass.Mapper.Sc.CodeFirst.config.exclude" />
     <Content Include="App_Config\Include\scboilerplate\Foundation\Foundation.ContentStore.Serialization.config" />
     <None Include="Properties\PublishProfiles\scboilerplate.pubxml" />
     <None Include="Web.config" />
