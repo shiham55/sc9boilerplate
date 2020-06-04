@@ -1,25 +1,26 @@
 ## Sitecore-Helix boilerplate  
 
-#### Introcution
+### Introcution
 
 Boilerplace implemented targetting Sitecore 9.0.2 rev. 180604, upgradable to any version above via Nuget package manager.
 
-#### Prerequisites
+### Prerequisites
 
-* Node.js
-* IIS Express
+##### Node.js
+##### IIS Express
   * Should have website folder pointing to IIS virtual directory, with Sitecore 'Website' folder content
   * This sample code assumens website folder to at 'C:\Websites\sc9helix.local\Website'. 
   * And source code to be at 'C:\Projects\sitecore-9-helix-boilerplate'
     Feel free to have the setup on a diffrent location and change 'devRoot' and 'webRoot' settings updated on ht e the following configuration file.
     * gulp-config.js
-* SQL Server Express 
+##### SQL Server Express 
   * Should have Sitecore databases (atleast core, master, web) deployed with users to access the database
 
 #### Setup
 
 Clone or download the repository. Once source code is available locally run following command from root directory of source to install dependencies.
 
+##### Installing Node Packges
 ```
 npm install -g
 
@@ -29,6 +30,21 @@ npm install gulp
 Once packages are installed open the task runner and refresh to see task configured for building solution and publishing each layer or full solution.
 
 ![Task Runner](docs/images/task-runner.png)
+
+##### Nuget Restore
+
+From task runner right click on 'Build-Solution' task. This will restore the Nugets on the initial run and build the solution.
+
+![Build Task Complete](docs/images/build-task-complete.png)
+
+
+
+###### Unicorn Setup
+
+![Unicorn Error](docs/images/unicorn-error.png)
+
+![Default Paths Unicron](docs/images/default-paths-unicron.png)
+
 
 #### Troubleshooting - Tips
 
