@@ -1,13 +1,9 @@
 ﻿---
-ID: "9ad288ff-9966-4270-8622-a07694f069fe"
-Parent: "076e6e78-df75-41aa-9502-7be90ebebed8"
-Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
-Path: /sitecore/layout/renderings/ilight2019/Feature/Navigation
+ID: "93d04214-5caf-4e19-8be5-23c847de58cd"
+Parent: "12e339d0-3a41-45eb-9397-9019a346706f"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/layout/Renderings/scboilerplate/Feature/Navigation
 DB: master
-SharedFields:
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 100
 Languages:
 - Language: en
   Versions:
@@ -15,4 +11,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180928T025702Z
+      Value: 20200605T040814Z
