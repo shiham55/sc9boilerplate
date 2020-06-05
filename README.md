@@ -24,7 +24,7 @@ Clone or download the repository. Once source code is available locally run foll
 
 ##### Installing Node Packges
 ```
-npm install -g
+npm install
 
 npm install gulp
 ```

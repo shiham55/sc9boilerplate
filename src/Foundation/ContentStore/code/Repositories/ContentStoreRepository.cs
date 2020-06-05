@@ -1,4 +1,5 @@
 ﻿using Glass.Mapper.Sc;
+using Glass.Mapper.Sc.Web.Mvc;
 using scboilerplate.Foundation.ContentStore.Models.SitecoreModels;
 using Sitecore.Data.Items;
 using System.Collections.Generic;
@@ -9,14 +10,16 @@ namespace scboilerplate.Foundation.ContentStore.Repositories
     {
         #region Members
         public Item ContextItem { get; private set; }
+        private readonly IMvcContext _sitecoreContext;
         #endregion
 
         #region Constructor
         public ContentStoreRepository()
         {
+            _sitecoreContext = new MvcContext();
         }
 
-        public ContentStoreRepository(Item item)
+        public ContentStoreRepository(Item item) : this()
         {
             this.ContextItem = item;
         }
@@ -33,7 +36,8 @@ namespace scboilerplate.Foundation.ContentStore.Repositories
             {
                 foreach (Item logoFolderItem in logosFolder.Children)
                 {
-                    ILogoCategoryFolder logoCategoryFolder = logoFolderItem.GlassCast<ILogoCategoryFolder>();
+                    ILogoCategoryFolder logoCategoryFolder = _sitecoreContext.SitecoreService.GetItem<ILogoCategoryFolder>(this.ContextItem);
+
                     if (logoCategoryFolder.ShowInFooterTopRow)
                         topRow.Add(logoCategoryFolder);
                 }
@@ -51,7 +55,7 @@ namespace scboilerplate.Foundation.ContentStore.Repositories
             {
                 foreach (Item logoFolderItem in logosFolder.Children)
                 {
-                    ILogoCategoryFolder logoCategoryFolder = logoFolderItem.GlassCast<ILogoCategoryFolder>();
+                    ILogoCategoryFolder logoCategoryFolder = _sitecoreContext.SitecoreService.GetItem<ILogoCategoryFolder>(this.ContextItem);
                     if (logoCategoryFolder.ShowInFooterSecondRow)
                         bottomRow.Add(logoCategoryFolder);
                 }
@@ -69,7 +73,7 @@ namespace scboilerplate.Foundation.ContentStore.Repositories
             {
                 foreach (Item logoFolderItem in logosFolder.Children)
                 {
-                    ILogoCategoryFolder logoCategoryFolder = logoFolderItem.GlassCast<ILogoCategoryFolder>();
+                    ILogoCategoryFolder logoCategoryFolder = _sitecoreContext.SitecoreService.GetItem<ILogoCategoryFolder>(this.ContextItem);
                     allLogoFolders.Add(logoCategoryFolder);
                 }
             }

@@ -1,3 +1,4 @@
+#region GlassMapperScCustom generated code
 using Glass.Mapper.Configuration;
 using Glass.Mapper.IoC;
 using Glass.Mapper.Maps;
@@ -51,3 +52,4 @@ namespace scboilerplate.Foundation.SitecoreExtensions.App_Start
         }
     }
 }
+#endregion
