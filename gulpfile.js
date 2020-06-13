@@ -5,7 +5,9 @@ var foreach = require("gulp-foreach");
 var gulpConfig = require("./gulp-config.js")();
 var clean = require('gulp-clean');
 var nugetRestore = require('gulp-nuget-restore');
+var gulpCopy = require('gulp-copy');
 module.exports.config = gulpConfig;
+
 
 function cleanProjectFiles(layerName) {
     const filesToDelete = [
@@ -47,6 +49,14 @@ function publishProjects(location, dest) {
         }));
 };
 
+function copyUnicorn() {
+    var outputPath = gulpConfig.unicornRoot;
+
+    return gulp
+        .src(["./src/**/*.yml"])
+        .pipe(gulpCopy(outputPath));
+};
+
 gulp.task("Build-Solution", function () {
     var targets = ["Build"];
 
@@ -81,8 +91,13 @@ gulp.task("Publish-Project-Layer", function () {
         publishProjects("./src/Project");
 });
 
+gulp.task("Publish-Unicorn-Files", function () {
+    return copyUnicorn();
+});
+
 
 gulp.task("Publish-All-Projects", gulp.series("Build-Solution",
     "Publish-Foundation-Layer",
     "Publish-Feature-Layer",
-    "Publish-Project-Layer"));
+    "Publish-Project-Layer",
+    "Publish-Unicorn-Files"));
