@@ -1,0 +1,33 @@
+﻿---
+ID: "f291c03f-1329-49c3-8fb4-1f4aeba6b355"
+Parent: "b4fc56df-c930-4503-9ddd-b004a8c000fb"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/scboilerplate/Project/Website/Page Types/Category Detail
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/form_red_add.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {8906B507-DAE5-47B2-88FE-AB150A470DF0}
+    {276D7273-54A3-4C7E-9709-1687AF97A7A6}
+    {A42597C5-A827-4282-95FB-BA489686A3E5}
+    {C79C29A6-C921-49E4-ABF5-AF1CADFCBEAF}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{1EB42E5F-9733-479A-9606-7C1A69925830}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181003T042416Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

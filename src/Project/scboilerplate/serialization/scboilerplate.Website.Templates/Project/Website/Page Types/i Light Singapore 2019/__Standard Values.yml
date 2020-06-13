@@ -1,0 +1,79 @@
+﻿---
+ID: "3b8c038f-4434-40d8-ae1d-72a8e17a3073"
+Parent: "e847faf6-5e6e-4e0a-96b6-74fa0065818a"
+Template: "e847faf6-5e6e-4e0a-96b6-74fa0065818a"
+Path: /sitecore/templates/scboilerplate/Project/Website/Page Types/i Light Singapore 2019/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: tree list
+  Value: |
+    {1E8F53DB-8D58-41BB-9982-A729AB616B61}
+    {AFBC5DEE-C215-4F20-8D0E-91382A549D72}
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{7F8A8E38-C582-43CA-B850-D449C5F67D49}">
+        <r
+          id="{7AFC2F2C-7147-4DE2-8283-922B58EB9B85}"
+          ph="HtmlHead"
+          uid="{5D392997-AB85-45DD-953E-D6071684406C}" />
+        <r
+          id="{4BFFF817-954E-4915-AC6C-5715E08D4192}"
+          ph="Main Navigation"
+          uid="{D21F26DD-3BAF-405B-B72B-798719869BA5}" />
+        <r
+          id="{9F782E22-92BD-48FA-AD8C-513D2CE8EDA5}"
+          ph="Content"
+          uid="{F64C5EB0-4BA3-4364-B89F-38636C972BFA}" />
+        <r
+          id="{F04512B6-B30A-44E2-AAC1-C7D7D0E30CD5}"
+          ph="Content"
+          uid="{5AF54A18-52B5-41BC-98B0-2B15789505C9}" />
+        <r
+          ds=""
+          id="{E2C2E4AA-FD80-45C6-9494-CBB716F2CC2A}"
+          par=""
+          ph="HomeContent"
+          uid="{95B0F419-9CBF-4FD8-9483-C55F0F9BB3E0}" />
+        <r
+          ds=""
+          id="{C718124C-961D-4B44-9C16-10EEF10324CD}"
+          par=""
+          ph="HomeContent"
+          uid="{48A1FA3F-DBC8-46A4-9D8A-B2EF194F6B4E}" />
+        <r
+          ds=""
+          id="{248BFC20-0D53-46DC-A0AA-F73EF9B638D1}"
+          par=""
+          ph="HomeContent"
+          uid="{ABDA0CB4-AF38-439B-8128-31289477F784}" />
+        <r
+          ds=""
+          id="{023C75CD-9869-4B6F-8674-93361FE9A868}"
+          par=""
+          ph="HomeContent"
+          uid="{F669682E-4D60-43C2-8628-C02A3054CB35}" />
+        <r
+          id="{8B62FE6F-6713-48E1-8660-0425DCA36409}"
+          ph="Footer"
+          uid="{0AF8A716-596D-4C48-9286-6C2EF0C38435}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180928T053146Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,7 +1,7 @@
 ﻿---
-ID: "58936f88-7485-4985-bcc1-7fc8be76ba90"
-Parent: "bed8bd62-9c73-47ea-b2d9-782314cdfce3"
-Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+ID: "8c47f442-74c9-4ccd-8e53-30f9e1d17e8b"
+Parent: "3298e4e3-3eab-41ac-bea8-e02ad472bca2"
+Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
 Path: /sitecore/layout/Renderings/scboilerplate/Foundation/Shared Page Content
 DB: master
 Languages:
@@ -11,4 +11,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200605T040620Z
+      Value: 20181008T043000Z

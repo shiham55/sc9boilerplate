@@ -1,7 +1,7 @@
 ﻿---
-ID: "bed8bd62-9c73-47ea-b2d9-782314cdfce3"
-Parent: "3a023221-37f9-4452-b26d-4e5cc95182fb"
-Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+ID: "3298e4e3-3eab-41ac-bea8-e02ad472bca2"
+Parent: "1e889f5d-8f40-4abb-89bd-d46df20fa109"
+Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
 Path: /sitecore/layout/Renderings/scboilerplate/Foundation
 DB: master
 Languages:
@@ -11,4 +11,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200605T035617Z
+      Value: 20180926T035927Z

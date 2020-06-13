@@ -72,7 +72,7 @@
             </div>
         </div>
 
-        @if (Model != null || Model.NavigationItems != null || Model.NavigationItems.Items != null || Model.NavigationItems.Items.Count > 0)
+        @if (Model != null && Model.NavigationItems != null && Model.NavigationItems.Items != null && Model.NavigationItems.Items.Count > 0)
         {
             <div class="header__right">
                 <div class="non-search">

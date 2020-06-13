@@ -1,0 +1,31 @@
+﻿---
+ID: "afbc5dee-c215-4f20-8d0e-91382a549d72"
+Parent: "43e0d8ac-5d66-4aba-af83-d4d302051ca6"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/scboilerplate/Project/Website/Content Types/Folders/Page Group Folder
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/folder_cubes.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {A42597C5-A827-4282-95FB-BA489686A3E5}
+    {D33845A9-DFB4-4CDD-B961-5DC5FEFBF192}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{2733BF19-404C-4384-8398-4B857DEC58D1}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181001T083706Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

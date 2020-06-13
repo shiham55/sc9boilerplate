@@ -1,0 +1,23 @@
+﻿---
+ID: "891abe64-ce70-4cec-8789-3e9651046d57"
+Parent: "f4606c17-b25d-4bd9-a8f6-77a77f1d3da7"
+Template: "f4606c17-b25d-4bd9-a8f6-77a77f1d3da7"
+Path: /sitecore/templates/scboilerplate/Project/Website/Content Types/Folders/Media Release Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: tree list
+  Value: "{B00261CE-BEB0-4823-BAEF-9CAFA0582B8A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181001T083754Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

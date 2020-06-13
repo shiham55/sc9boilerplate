@@ -1,0 +1,23 @@
+﻿---
+ID: "b03bf752-0651-4654-8367-d074e0bf6d21"
+Parent: "e0988037-a3e9-4491-848b-340e0dca2fde"
+Template: "e0988037-a3e9-4491-848b-340e0dca2fde"
+Path: /sitecore/templates/scboilerplate/Foundation/Content Store/Route/Routes Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: tree list
+  Value: "{DC265789-799C-4F9B-AF28-D55404FD2E78}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181017T090854Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

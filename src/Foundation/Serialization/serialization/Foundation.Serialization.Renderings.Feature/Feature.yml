@@ -1,7 +1,7 @@
 ﻿---
-ID: "12e339d0-3a41-45eb-9397-9019a346706f"
-Parent: "3a023221-37f9-4452-b26d-4e5cc95182fb"
-Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+ID: "076e6e78-df75-41aa-9502-7be90ebebed8"
+Parent: "1e889f5d-8f40-4abb-89bd-d46df20fa109"
+Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
 Path: /sitecore/layout/Renderings/scboilerplate/Feature
 DB: master
 Languages:
@@ -11,4 +11,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200605T035617Z
+      Value: 20180926T035927Z

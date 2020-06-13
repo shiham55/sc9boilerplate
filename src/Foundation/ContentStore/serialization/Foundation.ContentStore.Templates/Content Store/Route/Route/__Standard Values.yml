@@ -1,0 +1,18 @@
+﻿---
+ID: "c737579e-48db-4262-b528-902ef90c5745"
+Parent: "dc265789-799c-4f9b-af28-d55404fd2e78"
+Template: "dc265789-799c-4f9b-af28-d55404fd2e78"
+Path: /sitecore/templates/scboilerplate/Foundation/Content Store/Route/Route/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181017T090848Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
