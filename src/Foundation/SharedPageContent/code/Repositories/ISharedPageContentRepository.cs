@@ -4,8 +4,6 @@ namespace scboilerplate.Foundation.SharedPageContent.Repositories
 {
     public interface ISharedPageContentRepository
     {
-        IMainContentMultipleTitle GetMultipleTitle();
-
         IMetaTag GetMetaTags();
     }
 }

@@ -20,11 +20,6 @@ namespace scboilerplate.Foundation.SharedPageContent.Controllers
             this._mainContentRepository = mainContentRepository;
         }
 
-        public ActionResult MultipleTitles()
-        {
-            return View("~/Views/scboilerplate/SharedPageContent/MultipleTitles.cshtml", this._mainContentRepository.GetMultipleTitle());
-        }
-
         public ActionResult MetaTags()
         {
             var metaTags = this._mainContentRepository.GetMetaTags();
@@ -37,6 +32,31 @@ namespace scboilerplate.Foundation.SharedPageContent.Controllers
             }
 
             return View("~/Views/scboilerplate/SharedPageContent/MetaTags.cshtml", metaTags);
+        }
+
+        public ActionResult ScriptsTop()
+        {
+            return View("~/Views/scboilerplate/SharedPageContent/ScriptsTop.cshtml");
+        }
+
+        public ActionResult ScriptsBottom()
+        {
+            return View("~/Views/scboilerplate/SharedPageContent/ScriptsBottom.cshtml");
+        }
+
+        public ActionResult StylesAndIcons()
+        {
+            return View("~/Views/scboilerplate/SharedPageContent/StylesAndIcons.cshtml");
+        }
+
+        public ActionResult AnalyticsTop()
+        {
+            return View("~/Views/scboilerplate/SharedPageContent/AnalyticsTop.cshtml");
+        }
+
+        public ActionResult AnalyticsBottom()
+        {
+            return View("~/Views/scboilerplate/SharedPageContent/AnalyticsTop.cshtml");
         }
     }
 }

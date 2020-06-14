@@ -1,40 +1,32 @@
 ﻿@using Sitecore.Mvc;
 @using scboilerplate.Project.Website;
 @using scboilerplate.Foundation.SitecoreExtensions.Extensions;
-<!DOCTYPE html>
-<!--[if lt IE 9]>
-<html class='lt-ie9 no-js' lang='en'>
-<![endif]-->
-<!--[if gte IE 9]><!-->
 
-<html class="no-js" lang="en">
-<!--<![endif]-->
+<html lang="en">
 <head>
     @Html.Sitecore().Placeholder("HtmlHead")
-	<script>
-		(function (i, s, o, g, r, a, m) {
-		i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-			(i[r].q = i[r].q || []).push(arguments)
-		}, i[r].l = 1 * new Date(); a = s.createElement(o),
-			m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-		ga('create', '@Sitecore.Configuration.Settings.GetSetting("GoogleAnalyticsKey", "default-goes-here")', 'auto');
-		ga('send', 'pageview');
-
-	</script>
+    <!-- meta tags goes here -->
+    <!-- styles goes here -->
+    <!-- scripts bottom goes here -->
+    <!-- analytics top goes here -->
 </head>
-<body class="home  @(Sitecore.Context.PageMode.IsNormal ? "" : (Sitecore.Context.PageMode.IsExperienceEditor ? "pagemode-edit" : "pagemode-preview"))">
-    <!--[if lt IE 9]>
-    <p class='browsehappy'>You are using an <strong>outdated</strong> browser. Please <a href='http://browsehappy.com/'>upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-    <header class="header">
-        @Html.Sitecore().Placeholder("Main Navigation")
-    </header>
-    <main id="main-content" class="@(Sitecore.Context.Item.IsDerived(Templates.PageType.Home.ID) ? "home" : "")">
+<body class="@(Sitecore.Context.PageMode.IsNormal ? "" : (Sitecore.Context.PageMode.IsExperienceEditor ? "pagemode-edit" : "pagemode-preview"))">
+
+    @Html.Sitecore().Placeholder("Main Navigation")
+
+    <main role="main" class="container">
+
+        <!-- remove this section -->
+        <div class="starter-template">
+            <h1>Bootstrap starter template</h1>
+            <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+        </div>
+
         @Html.Sitecore().Placeholder("Content")
+
     </main>
     @Html.Sitecore().Placeholder("Footer")
+    <!-- scripts bottom goes here -->
+    <!-- analytics top goes here -->
 </body>
 </html>
-

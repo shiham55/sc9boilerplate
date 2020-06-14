@@ -17,7 +17,7 @@ SharedFields:
   Value: PrimaryMenu
 - ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
   Hint: Controller
-  Value: ilight2019.Feature.Navigation.Controllers.NavigationController,ilight2019.Feature.Navigation
+  Value: scboilerplate.Feature.Navigation.Controllers.NavigationController,scboilerplate.Feature.Navigation
 - ID: "f3e7e552-d7c8-469b-a150-69e4e14ab35c"
   Hint: ClearOnIndexUpdate
   Type: Checkbox

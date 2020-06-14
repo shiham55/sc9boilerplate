@@ -36,11 +36,6 @@
         #endregion
 
         #region Action Results
-        public ActionResult Breadcrumb()
-        {
-            var items = this._navigationRepository.GetBreadcrumb();
-            return this.View("~/Views/scboilerplate/Navigation/Breadcrumb.cshtml", items);
-        }
 
         public ActionResult PrimaryMenu()
         {
@@ -53,23 +48,6 @@
             };
 
             return this.View("~/Views/scboilerplate/Navigation/PrimaryMenu.cshtml", primaryMenuViewModel);
-        }
-
-        public ActionResult SecondaryMenu()
-        {
-            var item = this._navigationRepository.GetSecondaryMenuItem();
-            return this.View("~/Views/scboilerplate/Navigation/SecondaryMenu.cshtml", item);
-        }
-
-        public ActionResult NavigationLinks()
-        {
-            if (string.IsNullOrEmpty(RenderingContext.Current.Rendering.DataSource))
-            {
-                return null;
-            }
-            var item = RenderingContext.Current.Rendering.Item;
-            var items = this._navigationRepository.GetLinkMenuItems(item);
-            return this.View("~/Views/scboilerplate/Navigation/NavigationLinks.cshtml", items);
         }
 
         public ActionResult Footer()

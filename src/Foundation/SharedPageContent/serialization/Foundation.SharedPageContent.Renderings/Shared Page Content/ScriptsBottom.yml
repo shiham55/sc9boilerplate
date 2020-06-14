@@ -1,13 +1,13 @@
 ﻿---
-ID: "7afc2f2c-7147-4de2-8283-922b58eb9b85"
+ID: "139f61a2-f940-4c76-94d4-6f70c53c643c"
 Parent: "8c47f442-74c9-4ccd-8e53-30f9e1d17e8b"
 Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
-Path: /sitecore/layout/Renderings/scboilerplate/Foundation/Shared Page Content/Meta Tags
+Path: /sitecore/layout/Renderings/scboilerplate/Foundation/Shared Page Content/ScriptsBottom
 DB: master
 SharedFields:
 - ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
   Hint: Controller Action
-  Value: MetaTags
+  Value: ScriptsBottom
 - ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
   Hint: Controller
   Value: scboilerplate.Foundation.SharedPageContent.Controllers.SharedPageContentController,scboilerplate.Foundation.SharedPageContent
@@ -18,4 +18,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20181008T100624Z
+      Value: 20181008T043028Z

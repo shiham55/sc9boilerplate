@@ -205,12 +205,8 @@
     <Content Include="App_Config\Include\Glass\Glass.Mapper.Sc.Start.config" />
     <Content Include="App_Config\Include\Glass\Glass.Mapper.Sc.config" />
     <None Include="Properties\PublishProfiles\scboilerplate.pubxml" />
-    <Content Include="Views\scboilerplate\Navigation\Breadcrumb.cshtml" />
-    <Content Include="Views\scboilerplate\Navigation\LinkMenu.cshtml" />
     <Content Include="Views\scboilerplate\Navigation\NavigationLinks.cshtml" />
     <Content Include="Views\scboilerplate\Navigation\PrimaryMenu.cshtml" />
-    <Content Include="Views\scboilerplate\Navigation\SecondaryMenu.cshtml" />
-    <Content Include="Views\scboilerplate\Navigation\_SecondaryMenuItems.cshtml" />
     <Content Include="Views\Web.config">
       <SubType>Designer</SubType>
     </Content>

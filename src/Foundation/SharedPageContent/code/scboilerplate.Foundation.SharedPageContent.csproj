@@ -236,8 +236,9 @@
     <Content Include="App_Config\Include\Glass\Glass.Mapper.Sc.Start.config" />
     <Content Include="App_Config\Include\Glass\Glass.Mapper.Sc.config" />
     <None Include="Properties\PublishProfiles\scboilerplate.pubxml" />
-    <Content Include="Views\scboilerplate\SharedPageContent\MultipleTitles.cshtml" />
+    <Content Include="Views\scboilerplate\SharedPageContent\StylesAndIcons.cshtml" />
     <Content Include="Views\scboilerplate\SharedPageContent\MetaTags.cshtml" />
+    <Content Include="Views\scboilerplate\SharedPageContent\ScriptsBottom.cshtml" />
     <None Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

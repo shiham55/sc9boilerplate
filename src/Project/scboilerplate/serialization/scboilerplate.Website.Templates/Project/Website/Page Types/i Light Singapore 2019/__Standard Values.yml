@@ -24,45 +24,21 @@ SharedFields:
           ph="HtmlHead"
           uid="{5D392997-AB85-45DD-953E-D6071684406C}" />
         <r
+          id="{EE317535-65B6-4B01-A333-EE1DE535357B}"
+          ph="HtmlHead"
+          uid="{B9A8953E-6929-4618-BD09-25FCE5631F42}" />
+        <r
           id="{4BFFF817-954E-4915-AC6C-5715E08D4192}"
           ph="Main Navigation"
           uid="{D21F26DD-3BAF-405B-B72B-798719869BA5}" />
         <r
-          id="{9F782E22-92BD-48FA-AD8C-513D2CE8EDA5}"
-          ph="Content"
-          uid="{F64C5EB0-4BA3-4364-B89F-38636C972BFA}" />
-        <r
-          id="{F04512B6-B30A-44E2-AAC1-C7D7D0E30CD5}"
-          ph="Content"
-          uid="{5AF54A18-52B5-41BC-98B0-2B15789505C9}" />
-        <r
-          ds=""
-          id="{E2C2E4AA-FD80-45C6-9494-CBB716F2CC2A}"
-          par=""
-          ph="HomeContent"
-          uid="{95B0F419-9CBF-4FD8-9483-C55F0F9BB3E0}" />
-        <r
-          ds=""
-          id="{C718124C-961D-4B44-9C16-10EEF10324CD}"
-          par=""
-          ph="HomeContent"
-          uid="{48A1FA3F-DBC8-46A4-9D8A-B2EF194F6B4E}" />
-        <r
-          ds=""
-          id="{248BFC20-0D53-46DC-A0AA-F73EF9B638D1}"
-          par=""
-          ph="HomeContent"
-          uid="{ABDA0CB4-AF38-439B-8128-31289477F784}" />
-        <r
-          ds=""
-          id="{023C75CD-9869-4B6F-8674-93361FE9A868}"
-          par=""
-          ph="HomeContent"
-          uid="{F669682E-4D60-43C2-8628-C02A3054CB35}" />
-        <r
           id="{8B62FE6F-6713-48E1-8660-0425DCA36409}"
           ph="Footer"
           uid="{0AF8A716-596D-4C48-9286-6C2EF0C38435}" />
+        <r
+          id="{139F61A2-F940-4C76-94D4-6F70C53C643C}"
+          ph="Footer"
+          uid="{08582AB0-7E29-4AA1-AEB6-922D5FC97A74}" />
       </d>
     </r>
 Languages:
