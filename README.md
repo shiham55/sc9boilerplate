@@ -24,7 +24,7 @@ Clone or download the repository. Once source code is available locally run foll
 
 ##### Installing Node Packges
 ```
-npm install -g
+npm install
 
 npm install gulp
 ```
@@ -43,9 +43,9 @@ From task runner right click on 'Build-Solution' task. This will restore the Nug
 
 ###### Unicorn Setup
 
-![Unicorn Error](docs/images/unicorn-error.png)
+http://sc9helix.local/unicorn.aspx
 
-![Default Paths Unicron](docs/images/default-paths-unicron.png)
+![Unicorn Start Page](docs/images/unicorn-start-page.png)![Uniorn Ready To Sync](docs/images/uniorn-ready-to-sync.png)
 
 
 ### Troubleshooting - Tips

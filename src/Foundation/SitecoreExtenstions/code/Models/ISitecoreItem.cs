@@ -31,7 +31,7 @@ namespace scboilerplate.Foundation.SitecoreExtensions.Models
         [SitecoreField("__updated")]
         DateTime ModifiedDate { get; set; }
 
-        [SitecoreChildren(InferType = true, IsLazy = false)]
+        [SitecoreChildren(InferType = true)]
         IEnumerable<ISitecoreItem> Children { get; set; }
 
         [SitecoreInfo(Type = SitecoreInfoType.Url)]

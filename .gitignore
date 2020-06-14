@@ -241,4 +241,4 @@ ModelManifest.xml
 # FAKE - F# Make
 .fake/
 gulp-config.js
-src/Project/ilight2019/code/App_Config/Include/ilight2019/Project/Project.Website.DevSettings.config
+src/Project/scboilerplate/code/App_Config/Include/scboilerplate/Project/Project.Website.DevSettings.config

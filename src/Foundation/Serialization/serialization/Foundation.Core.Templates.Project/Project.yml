@@ -1,8 +1,8 @@
 ﻿---
-ID: "47cdb9fb-9222-4142-9b8a-a6a8091e7e26"
-Parent: "abd75973-b1e4-447a-b10d-33ae66a48c46"
+ID: "5465b920-c2c4-454d-a509-2e7a60efc543"
+Parent: "1e487d8b-3501-42c3-9a00-9a485e43e974"
 Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
-Path: /sitecore/templates/ilight2019/Project
+Path: /sitecore/templates/scboilerplate/Project
 DB: core
 Languages:
 - Language: en
@@ -11,4 +11,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180926T045210Z
+      Value: 20200605T030258Z

@@ -1,8 +1,8 @@
 ﻿---
-ID: "814d5cce-c55f-4208-98cf-1ae2cadc20ca"
-Parent: "abd75973-b1e4-447a-b10d-33ae66a48c46"
+ID: "15d4aa39-a30e-4306-a79d-b8499edc1cc0"
+Parent: "1e487d8b-3501-42c3-9a00-9a485e43e974"
 Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
-Path: /sitecore/templates/ilight2019/Feature
+Path: /sitecore/templates/scboilerplate/Feature
 DB: core
 Languages:
 - Language: en
@@ -11,4 +11,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180926T045210Z
+      Value: 20200605T030258Z
