@@ -1,12 +1,7 @@
-﻿@using System.Collections.Specialized;
-@using scboilerplate.Feature.Navigation.Models.SitecoreModels;
-@using scboilerplate.Feature.Navigation.Models.ViewModels;
-@using scboilerplate.Feature.Navigation;
-@using scboilerplate.Foundation.SitecoreExtensions.Extensions;
-@using scboilerplate.Foundation.ContentStore.Models.SitecoreModels
+﻿@using scboilerplate.Feature.Navigation.Models.ViewModels;
+@using Glass.Mapper.Sc.Mvc;
 
-@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<PrimaryMenuViewModel>
-
+@inherits Html.Glass<PrimaryMenuViewModel>
 
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <a class="navbar-brand" href="#">Navbar</a>
