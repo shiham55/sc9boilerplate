@@ -1,13 +1,9 @@
 ﻿---
-ID: "65e39ad1-0df8-4947-9955-15cc9aeebab0"
-Parent: "94ff3c52-daec-4f18-a3ac-b6918281745a"
-Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+ID: "466d3966-62da-4d17-aff9-5d4f4e7fd10e"
+Parent: "9f0d09fc-7538-49db-b0d2-7f29f5dfdfbc"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
 Path: /sitecore/templates/scboilerplate/Foundation
 DB: master
-SharedFields:
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 0
 Languages:
 - Language: en
   Versions:
@@ -15,8 +11,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180926T035544Z
-    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
-      Hint: __Created by
-      Value: |
-        sitecore\admin
+      Value: 20200614T111155Z
