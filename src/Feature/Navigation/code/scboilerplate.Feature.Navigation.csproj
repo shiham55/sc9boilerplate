@@ -226,8 +226,7 @@
     <Compile Include="App_Start\GlassMapperScCustom.cs" />
     <Compile Include="App_Start\RazorGeneratorMvcStart.cs" />
     <Compile Include="Controllers\NavigationController.cs" />
-    <Compile Include="Models\SitecoreModels\Footer.cs" />
-    <Compile Include="Models\SitecoreModels\INotification.cs" />
+    <Compile Include="Models\SitecoreModels\IFooter.cs" />
     <Compile Include="Models\SitecoreModels\ILogo.cs" />
     <Compile Include="Models\NavigationItem.cs" />
     <Compile Include="Models\RenderingModels\NavigationItems.cs" />

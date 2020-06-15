@@ -1,9 +1,9 @@
+using Sitecore.Data.Items;
+using scboilerplate.Feature.Navigation.Models;
+using scboilerplate.Feature.Navigation.Models.SitecoreModels;
+
 namespace scboilerplate.Feature.Navigation.Repositories
 {
-    using Sitecore.Data.Items;
-    using scboilerplate.Feature.Navigation.Models;
-    using scboilerplate.Feature.Navigation.Models.SitecoreModels;
-
     public interface INavigationRepository
     {
         Item GetNavigationRoot(Item contextItem);
@@ -13,6 +13,5 @@ namespace scboilerplate.Feature.Navigation.Repositories
         NavigationItems GetLinkMenuItems(Item menuItem);
         IFooter GetFooter();
         ILogo GetMainLogo();
-        INotification GetNotifications();
     }
 }

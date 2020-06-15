@@ -4,12 +4,8 @@ using scboilerplate.Foundation.SitecoreExtensions.Models;
 
 namespace scboilerplate.Feature.Navigation.Models.SitecoreModels
 {
-    public interface ILogo : ISitecoreItem
+    public interface IFooter : ISitecoreItem
     {
-        [SitecoreField("Logo")]
-        Image Logo { get; set; }
 
-        [SitecoreField("Logo link")]
-        Link LogoLink { get; set; }
     }
 }

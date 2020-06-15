@@ -43,8 +43,7 @@
             {
                 NavigationItems = this._navigationRepository.GetPrimaryMenu(),
                 Logo = this._navigationRepository.GetMainLogo(),
-                FooterItem = this._navigationRepository.GetFooter(),
-                NotificationItem = this._navigationRepository.GetNotifications()
+                FooterItem = this._navigationRepository.GetFooter()
             };
 
             return this.View("~/Views/scboilerplate/Navigation/PrimaryMenu.cshtml", primaryMenuViewModel);
@@ -55,8 +54,6 @@
             FooterViewModel footerViewModel = new FooterViewModel
             {
                 Footer = this._navigationRepository.GetFooter(),
-                TopRowLogoCategoryFolders = this._contentStoreRepository.GetFooterTopRowLogoFolders(),
-                BottomRowLogoCategoryFolders = this._contentStoreRepository.GetFooterBottomRowLogoFolders(),
                 LastUpdatedDate = RenderingContext.Current.Rendering.Item.Statistics.Updated.ToString("dd MMMM yyyy")
             };
 

@@ -12,17 +12,7 @@ namespace scboilerplate.Feature.Navigation.Models.ViewModels
 
         public ILogo Logo { get; set; }
 
-        public INotification NotificationItem { get; set; }
-
         public IFooter FooterItem { get; set; }
 
-        public bool ShowNotifications
-        {
-            get
-            {
-                return this.NotificationItem != null 
-                        && ( this.NotificationItem.Notifications != null && this.NotificationItem.Notifications.Count() > 0);
-            }
-        }
     }
 }

@@ -1,16 +1,16 @@
-﻿namespace scboilerplate.Feature.Navigation.Repositories
-{
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using Sitecore;
-    using Sitecore.Data.Items;
-    using scboilerplate.Feature.Navigation.Models;
-    using scboilerplate.Foundation.SitecoreExtensions.Extensions;
-    using scboilerplate.Feature.Navigation.Models.SitecoreModels;
-    using Glass.Mapper.Sc;
-    using Glass.Mapper.Sc.Web.Mvc;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using Sitecore;
+using Sitecore.Data.Items;
+using scboilerplate.Feature.Navigation.Models;
+using scboilerplate.Foundation.SitecoreExtensions.Extensions;
+using scboilerplate.Feature.Navigation.Models.SitecoreModels;
+using Glass.Mapper.Sc;
+using Glass.Mapper.Sc.Web.Mvc;
 
+namespace scboilerplate.Feature.Navigation.Repositories
+{
     public class NavigationRepository : INavigationRepository
     {
         public Item ContextItem { get; }
@@ -114,13 +114,6 @@
             return null;
         }
 
-        public INotification GetNotifications()
-        {
-            Item navigationRoot = this.GetNavigationRoot(this.ContextItem);
-            if (navigationRoot.IsDerived(Templates.Logo.ID))
-                return _sitecoreContext.SitecoreService.GetItem<INotification>(this.GetNavigationRoot(this.ContextItem));
-            return null;
-        }
 
         #region Private Methods
         private Item GetSecondaryMenuRoot()
