@@ -1,7 +1,5 @@
 ## Sitecore-Helix boilerplate  
 
-### https://getbootstrap.com/docs/4.5/examples/starter-template/
-
 ### Introcution
 
 Boilerplace implemented targetting Sitecore 9.0.2 rev. 180604, upgradable to any version above via Nuget package manager.
@@ -67,3 +65,14 @@ http://sc9helix.local/unicorn.aspx
 ![Webroot Permissions](docs/images/webroot-permissions.png)
 
 #### Sitecore version upgrade
+
+
+
+### Bootstrap template
+https://getbootstrap.com/docs/4.5/examples/starter-template/
+
+### VS Extension
+
+https://www.codeproject.com/Articles/391989/Working-with-Project-Template-and-Wizard-Extension
+
+https://www.youtube.com/watch?v=96UQ6CzWfeM
