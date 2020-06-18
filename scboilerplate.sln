@@ -11,6 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configurat
 		gulpfile.js = gulpfile.js
 		NuGet.config = NuGet.config
 		package.json = package.json
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{403BC865-889C-4FF2-87A2-29889FFB39E3}"
